@@ -1,0 +1,10 @@
+{"customer_id": "C001", "name": "Patricia Lee", "email": "jacksondonna@williams.org", "phone_number": "0690037325", "signup_date": "2023-11-12", "status": "inactive"}
+{"customer_id": "C002", "name": "Olivia Hayden", "email": "erogers@salazar.org", "phone_number": "8838978251", "signup_date": "2023-09-25", "status": "active"}
+{"customer_id": "C003", "name": "David Santos", "email": "david49@jones.com", "phone_number": "4979505139", "signup_date": "2023-10-13", "status": "inactive"}
+{"customer_id": "C004", "name": "James Ross", "email": "andrew81@yahoo.com", "phone_number": "2655280754", "signup_date": "2023-07-12", "status": "inactive"}
+{"customer_id": "C005", "name": "Megan Johnson", "email": "john48@miller.com", "phone_number": "4563199232", "signup_date": "2024-08-03", "status": "active"}
+{"customer_id": "C006", "name": "Wesley Odonnell", "email": "alyssa81@gmail.com", "phone_number": "4890954742", "signup_date": "2024-01-08", "status": "active"}
+{"customer_id": "C007", "name": "Debbie Rodriguez", "email": "james39@riddle.net", "phone_number": "7348251114", "signup_date": "2023-10-27", "status": "inactive"}
+{"customer_id": "C008", "name": "Benjamin Bauer", "email": "rmartinez@brown-johnson.com", "phone_number": "6344757956", "signup_date": "2024-06-04", "status": "inactive"}
+{"customer_id": "C009", "name": "Ruben Miller", "email": "parksmatthew@mueller.info", "phone_number": "6224064467", "signup_date": "2024-07-26", "status": "inactive"}
+{"customer_id": "C010", "name": "Heather Williams", "email": "parkbeth@hotmail.com", "phone_number": "0767599172", "signup_date": "2023-08-19", "status": "active"}

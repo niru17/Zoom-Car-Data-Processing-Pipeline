@@ -1,0 +1,10 @@
+{"booking_id": "B001", "customer_id": "C001", "car_id": "CAR554", "booking_date": "2024-07-20", "start_time": "2024-07-21T05:23:14Z", "end_time": "2024-07-21T14:23:14Z", "total_amount": 199.21, "status": "pending"}
+{"booking_id": "B002", "customer_id": "C002", "car_id": "CAR868", "booking_date": "2024-07-20", "start_time": "2024-07-21T11:12:57Z", "end_time": "2024-07-21T16:12:57Z", "total_amount": 216.1, "status": "pending"}
+{"booking_id": "B003", "customer_id": "C003", "car_id": "CAR144", "booking_date": "2024-07-20", "start_time": "2024-07-21T15:45:36Z", "end_time": "2024-07-22T00:45:36Z", "total_amount": 289.23, "status": "completed"}
+{"booking_id": "B004", "customer_id": "C004", "car_id": "CAR711", "booking_date": "2024-07-20", "start_time": "2024-07-21T09:24:41Z", "end_time": "2024-07-21T17:24:41Z", "total_amount": 113.22, "status": "cancelled"}
+{"booking_id": "B005", "customer_id": "C005", "car_id": "CAR749", "booking_date": "2024-07-20", "start_time": "2024-07-21T10:38:53Z", "end_time": "2024-07-21T17:38:53Z", "total_amount": 138.31, "status": "completed"}
+{"booking_id": "B006", "customer_id": "C006", "car_id": "CAR816", "booking_date": "2024-07-20", "start_time": "2024-07-21T13:10:10Z", "end_time": "2024-07-21T21:10:10Z", "total_amount": 202.82, "status": "cancelled"}
+{"booking_id": "B007", "customer_id": "C007", "car_id": "CAR998", "booking_date": "2024-07-20", "start_time": "2024-07-21T15:18:28Z", "end_time": "2024-07-22T01:18:28Z", "total_amount": 99.41, "status": "cancelled"}
+{"booking_id": "B008", "customer_id": "C008", "car_id": "CAR398", "booking_date": "2024-07-20", "start_time": "2024-07-21T21:33:30Z", "end_time": "2024-07-22T05:33:30Z", "total_amount": 60.19, "status": "pending"}
+{"booking_id": "B009", "customer_id": "C009", "car_id": "CAR591", "booking_date": "2024-07-20", "start_time": "2024-07-21T04:18:58Z", "end_time": "2024-07-21T08:18:58Z", "total_amount": 138.88, "status": "pending"}
+{"booking_id": "B010", "customer_id": "C010", "car_id": "CAR232", "booking_date": "2024-07-20", "start_time": "2024-07-21T11:45:22Z", "end_time": "2024-07-21T17:45:22Z", "total_amount": 212.21, "status": "completed"}
