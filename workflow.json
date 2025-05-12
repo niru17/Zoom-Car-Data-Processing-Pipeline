@@ -1,0 +1,67 @@
+{
+  "name": "Zoom_Car_Pipeline",
+  "email_notifications": {
+    "no_alert_for_skipped_runs": false
+  },
+  "webhook_notifications": {},
+  "timeout_seconds": 0,
+  "max_concurrent_runs": 1,
+  "tasks": [
+    {
+      "task_key": "process_bookings",
+      "run_if": "ALL_SUCCESS",
+      "notebook_task": {
+        "notebook_path": "/Workspace/Users/subramanian.niranjana1701@gmail.com/Zoom-Car-Data-Processing-Pipeline/process_zoomcar_bookings",
+        "base_parameters": {
+          "arrival_date": "20250511"
+        },
+        "source": "WORKSPACE"
+      },
+      "existing_cluster_id": "5512-045913-crnxhte7",
+      "timeout_seconds": 0,
+      "email_notifications": {},
+      "webhook_notifications": {}
+    },
+    {
+      "task_key": "process_customers",
+      "run_if": "ALL_SUCCESS",
+      "notebook_task": {
+        "notebook_path": "/Workspace/Users/subramanian.niranjana1701@gmail.com/Zoom-Car-Data-Processing-Pipeline/process_zoomcar_customers",
+        "base_parameters": {
+          "arrival_date": "20250511"
+        },
+        "source": "WORKSPACE"
+      },
+      "existing_cluster_id": "5512-045913-crnxhte7",
+      "timeout_seconds": 0,
+      "email_notifications": {},
+      "webhook_notifications": {}
+    },
+    {
+      "task_key": "Merge_customer_bookings",
+      "depends_on": [
+        {
+          "task_key": "process_customers"
+        },
+        {
+          "task_key": "process_bookings"
+        }
+      ],
+      "run_if": "ALL_SUCCESS",
+      "notebook_task": {
+        "notebook_path": "/Workspace/Users/subramanian.niranjana1701@gmail.com/Zoom-Car-Data-Processing-Pipeline/zoomcar_merge",
+        "source": "WORKSPACE"
+      },
+      "existing_cluster_id": "5512-045913-crnxhte7",
+      "timeout_seconds": 0,
+      "email_notifications": {},
+      "webhook_notifications": {}
+    }
+  ],
+  "queue": {
+    "enabled": true
+  },
+  "run_as": {
+    "user_name": "subramanian.niranjana1701@gmail.com"
+  }
+}
